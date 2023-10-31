@@ -1,0 +1,38 @@
+
+:root {
+     --font-Abril: 'Abril Fatface', serif;
+     --font-Open: 'Open Sans', sans-serif;
+}
+body {
+     font-family: var(--font-Open);
+     font-weight: 300;
+     background-image: linear-gradient(to bottom right,#00F490, #00BBC9);
+}
+h1 {
+     font-family:  'Abril Fatface', serif;
+}
+.jumbotron {
+     background-color: rgba(255, 222, 173, 0);
+}
+.drop-shadow {
+     text-shadow: 0 2px 2px rgba(0, 0, 0, 0.153);
+}
+.lead {
+     color: white;
+     font-size: 2.2rem;
+     font-weight: 300;
+}
+
+.btn-outline-light {
+     border-color: white;
+
+}
+.btn-outline-light:hover {
+     background-color: #00BBC9;
+}
+.card-title {
+     color: #00F490;
+}
+.btn-primary, .btn-primary:hover {
+     background-color: #9de3e9;
+}
